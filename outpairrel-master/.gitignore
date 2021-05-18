@@ -1,0 +1,9 @@
+# production
+/build
+
+./server/node_modules
+./client/node_modules
+npm-debug.log
+.tern-project
+data-*.json
+logs.txt

@@ -1,0 +1,43 @@
+
+.w-lists .search_w {
+    position: relative;
+    top: 0rem;
+    left: 1.75rem !important;
+    width: 100%;
+}
+
+.w-lists .search_w input {
+    padding-right: 1.5rem;
+}
+
+.w-lists .search_w i {
+    position: absolute;
+    top: 4.25rem;
+    right: 0.5rem;
+}
+
+.w-lists .search_w i:hover {
+    color: #5bc0de;
+}
+
+
+@media (min-width: 576px) {
+    .w-lists .search_w {
+        width: 11rem;
+    }
+}
+
+.wardrobe-list{
+    /* max-width: 300px; */
+    width: 100%;
+    /* display: inline-block; */
+}
+
+.form-control{
+    height: calc(1.5em + .75rem + 2px) !important;
+    padding: .375rem .75rem !important;
+    border-radius: .25rem !important;
+    width: 80% !important;
+    background-color: white !important;
+    margin: 0 auto !important;
+}

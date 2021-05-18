@@ -1,0 +1,21 @@
+.filter-item {
+    /* background-color: rgba(248, 248, 248, 0.753); */
+    /* margin-left: 64px; */
+    border-radius: 1px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    font-size: medium;
+}
+
+.filter-item i{
+    position: absolute;
+    right: 0.25rem;
+    top: 0.5rem;
+}
+
+.filter-item i:hover {
+    color: #5bc0de;
+}

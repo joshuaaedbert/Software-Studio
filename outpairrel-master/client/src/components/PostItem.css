@@ -1,0 +1,22 @@
+img {
+    max-width: 500px;
+    max-height: 400px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.article {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 0px;
+    padding: 50px 25px 100px 25px;
+    display: block;
+}
+
+.likes {
+    padding-left: 25px;
+    align-self: start;
+    color: black;
+    display: block;
+}

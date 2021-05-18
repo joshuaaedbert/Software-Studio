@@ -1,0 +1,22 @@
+.container {
+  padding-top: 1em;
+  min-height: 500px;
+}
+
+.flex {
+  display: flex; /* or inline-flex */
+  align-items: stretch;
+}
+
+.styling {
+  flex-grow: 1; /* default 0 */
+}
+
+.v-line {
+  flex-grow: 0;
+}
+
+.posts {
+  margin: 0 1em;
+  flex-grow: 2;
+}

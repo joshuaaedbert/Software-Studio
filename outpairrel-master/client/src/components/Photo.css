@@ -1,0 +1,38 @@
+.rec{
+    border: dotted 2px black;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 0rem;
+}
+
+.rec-change{
+    border: none;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 0rem;
+}
+
+.photo{
+    display: flex;
+}
+
+.photo .search {
+    position: relative;
+    top: 100px;
+    left: 1.75rem;
+    width: 100%;
+    color: black;
+}
+
+
+@media (min-width: 576px) {
+    .photo .search {
+        width: 11rem;
+    }
+}
